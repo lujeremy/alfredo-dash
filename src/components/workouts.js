@@ -4,6 +4,7 @@ const Workouts = ({ workouts }) => {
   return (
       <div>
           <h1>Workouts List</h1>
+          Hi, the main page is currently a work in progress, check out the api at alfredobot.com/api
           {workouts.map((workout) => (
               <div className="card">
                   <div className="card-body">
