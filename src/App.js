@@ -11,7 +11,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost/api/workouts')
+        fetch('http://alfredobot.com/api/workouts')
             .then(res => res.json())
             .then((data) => {
                 console.log(data)
